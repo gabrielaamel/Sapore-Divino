@@ -40,4 +40,4 @@ SaporeDivino_Restaurant/
 Gabriela
 
 🌐 Live Demo 
-https://gabrielaamel.github.io/SaporeDivino_Restaurant
+https://gabrielaamel.github.io/SaporeDivino
