@@ -39,5 +39,4 @@ SaporeDivino_Restaurant/
 👩‍💻 Author
 Gabriela
 
-🌐 Live Demo 
-https://gabrielaamel.github.io/SaporeDivino
+
