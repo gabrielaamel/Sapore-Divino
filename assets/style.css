@@ -1,0 +1,177 @@
+/* GENERAL */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background-color: #222;
+}
+
+header nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+header nav a:hover {
+    color: #f8d47f;
+}
+
+/* HERO */
+.hero {
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+.hero-text h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-text p {
+    font-size: 1.5rem;
+}
+
+/* SECTIONS */
+section h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* IMAGES */
+img {
+    border-radius: 8px;
+}
+
+/* MENU SECTION */
+#menu img {
+    margin-bottom: 10px;
+}
+
+#menu p {
+    font-size: 1.1rem;
+}
+
+/* GALLERY */
+.carousel-inner img {
+    height: 450px;
+    object-fit: cover;
+}
+
+/* CONTACT */
+#contact p {
+    font-size: 1.2rem;
+}
+
+/* FOOTER */
+footer {
+    background-color: #444;
+    color: white;
+}
+#menu img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+#contact img {
+    max-width: 350px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+/* BOOK A TABLE — Fancy Terroso Elegante */
+/* BOOK A TABLE — Terroso Elegante Premium */
+.book-a-table {
+    padding: 80px 0;
+    background: linear-gradient(180deg, #f7f3ec 0%, #f2ede6 100%); /* beige cálido */
+    border-top: 2px solid #bfa98a; /* marrón claro */
+    border-bottom: 2px solid #bfa98a;
+}
+
+.book-a-table .section-title h3 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #5a4632; /* café profundo */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.book-a-table .section-title p {
+    font-size: 20px;
+    color: #7a6a58; /* marrón suave */
+    margin-bottom: 45px;
+    font-style: italic;
+}
+
+/* Inputs */
+.book-a-table input,
+.book-a-table textarea {
+    border-radius: 14px;
+    padding: 16px;
+    border: 1px solid #c7b299; /* borde terroso */
+    background: #fff;
+    box-shadow: 0 3px 10px rgba(90, 70, 50, 0.08); /* sombra café suave */
+    transition: all 0.3s ease;
+}
+
+.book-a-table input:focus,
+.book-a-table textarea:focus {
+    border-color: #8c6f54; /* marrón más profundo */
+    box-shadow: 0 6px 16px rgba(90, 70, 50, 0.15);
+}
+
+/* Botón */
+.book-a-table button {
+    background: #8c6f54; /* marrón cálido */
+    color: #fff;
+    padding: 18px 40px;
+    border-radius: 14px;
+    border: none;
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.book-a-table button:hover {
+    background: #6e543d; /* marrón más oscuro */
+    transform: translateY(-3px);
+}
+
+/* Mensaje de éxito */
+.book-a-table .alert-success {
+    background: #e8dfd3;
+    color: #5a4632;
+    border: 1px solid #c7b299;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.logo img {
+    height: 65px;
+    width: auto;
+}
+.logo-img {
+    height: 38px;
+    width: auto;
+    margin-right: 12px;
+    border-radius: 6px;
+    padding: 4px;
+    background: #3f3110;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.25); /* sombra elegante */
+}
